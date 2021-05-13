@@ -5,6 +5,14 @@
 </div>
 
 <br/>
+<p align="center">
+  <img src="https://img.shields.io/badge/javascript-ES6+-yellow?logo=javascript" />
+  <img src="https://img.shields.io/badge/react-17.0.1-9cf?logo=react" />
+  <img src="https://img.shields.io/badge/node.js-v12.19.0-green?logo=node.js" />
+  <img src="https://img.shields.io/badge/Express-v4.16.1-9cf?logo=express" />
+</p>
+
+
 > 세상에 귀여운 강아지는 많고 그 중에서 우리의 손길이 필요한 강아지도 너무 많다! 본격 유기견&믹스견 알아보기 프로젝트
 
 
