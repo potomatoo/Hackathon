@@ -77,15 +77,13 @@ const WinnerTextBlock = styled.div`
 
 export default function Winner(props) {
 	const [winnerData, setWinner] = useState({
+		winnerId: props.match.params['id'],
 		winner: getCategory(props.match.params['id'])
 	});
 	return (
 		<Default>
 			<WinnerBlock>
-				<Card
-					name={winnerData.winner}
-					imageUrl="http://www.animal.go.kr/files/shelter/2021/05/202105121905113.jpg"
-				/>
+				<Card name={winnerData.winner} imageUrl={props.location.state['imageUrl']} />
 				<WinnerTextBlock>
 					<div id="celebration">
 						<h6 id="dogName">{winnerData.winner}</h6>
@@ -100,6 +98,7 @@ export default function Winner(props) {
 						<br />
 						<p>소개 해드리고 싶어요.</p>
 					</div>
+
 					<Button
 						style={{
 							marginTop: '4rem'
@@ -107,7 +106,15 @@ export default function Winner(props) {
 						color={palette.cyan[4]}
 						hvcolor={palette.cyan[6]}
 					>
-						<Link to={`/listing/${props.winner}`}>
+						<Link
+							to={{
+								pathname: `/listing/${winnerData.winnerId}`,
+								state: {
+									id: winnerData.winnerId,
+									imageUrl: props.location.state['imageUrl']
+								}
+							}}
+						>
 							<GiSittingDog
 								style={{
 									marginRight: '0.5rem'

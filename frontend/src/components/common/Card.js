@@ -72,7 +72,7 @@ const DogNameBlock = styled.div`
 	}
 `;
 
-export default function Card({ isDisappear, marginlr }) {
+export default function Card({ isDisappear, marginlr, name, imageUrl }) {
 	const [liked, setLiked] = useState(false);
 	const [show, setShow] = useState(true);
 
@@ -89,10 +89,10 @@ export default function Card({ isDisappear, marginlr }) {
 			className={show ? '' : 'selected'}
 			marginlr={marginlr}
 		>
-			<DogPictureBlock />
+			<DogPictureBlock style={{ backgroundImage: `url('${imageUrl}')` }} />
 			<CardTextBlock>
 				<DogNameBlock />
-				<DogNameBlock>절미</DogNameBlock>
+				<DogNameBlock>{name}</DogNameBlock>
 				<IconBlock></IconBlock>
 			</CardTextBlock>
 		</CardBlock>
