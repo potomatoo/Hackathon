@@ -10,6 +10,6 @@ router.get('/', function(req, res, next) {
 
 router.get('/featureDogs', DogController.getFeatureDogs);
 router.get('/idealDogs', IdealController.getIdealDogs);
-// router.get('/likeDogs', DogController.)
+router.get('/likeDogs', DogController.getLikeDogs);
 
 module.exports = router;

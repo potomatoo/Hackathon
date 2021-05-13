@@ -18,19 +18,19 @@ module.exports = {
         }
     },
 
-    // getLikeDogs: async (feature) => {
-    //     const fields = 'dog_idx, YEAR(CURRENT_DATE())-age+1 AS age, sex, weight, DATEDIFF(CURRENT_DATE(), happen_date) AS intake_days, special_mark, care_name, longitude, latitude';
-    //     const query = `SELECT ${fields} FROM ${table} WHERE feature1=${feature} or feature2=${feature} or feature3=${feature}`;
-    //     try {
-    //         const result = await pool.queryParam(query);
-    //         return result;
-    //     } catch (err) {
-    //         if (err.errno == 1062) {
-    //             console.log('getFeatureDogs ERROR : ', err.errno, err.code);
-    //             throw err;
-    //         }
-    //         console.log('getFeatureDogs ERROR : ', err);
-    //         throw err;
-    //     }
-    // }
+    getLikeDogs: async (like_arr) => {
+        const fields = 'dog_idx, YEAR(CURRENT_DATE())-age+1 AS age, sex, weight, DATEDIFF(CURRENT_DATE(), happen_date) AS intake_days, special_mark, care_name, longitude, latitude';
+        const query = `SELECT ${fields} FROM ${table} WHERE dog_idx IN (${like_arr})`;
+        try {
+            const result = await pool.queryParam(query);
+            return result;
+        } catch (err) {
+            if (err.errno == 1062) {
+                console.log('getLikeDogs ERROR : ', err.errno, err.code);
+                throw err;
+            }
+            console.log('getLikeDogs ERROR : ', err);
+            throw err;
+        }
+    }
 };
