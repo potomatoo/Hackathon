@@ -22,6 +22,23 @@
 - 가장 좋아하는 믹스견이 결정되면, 그와 비슷한 유기견 아이들을 함께 보여줍니다.
 - 이 서비스를 기회로 보다 많은 사람들이 믹스견, 그리고 유기견에 대해 한 번 더 생각해보게 되었으면 좋겠습니다😊
 
+## 💁‍♂️ Service workflow
+
+> 시작
+
+<div align="center" style="display:flex;">
+	<img src="./imgs/1.png" width="30%"/>
+</div>
+
+- 초기 시작 뷰입니다. 클릭하면 강아지 월드컵이 시작됩니다.
+
+> 월드컵
+
+<div align="center" style="display:flex;">
+	<img src="./imgs/2.png" width="30%"/>
+</div>
+
+- 월드컵 뷰입니다. 저희의 믹스견 분류에 따라 더 마음에 드는 쪽을 선택합니다.
 
 
 ## 📚 API Docs
