@@ -4,6 +4,7 @@ module.exports = {
 
     GET_DOG_SUCCESS: 'Feature별 유기견 조회 성공',
     GET_IDEAL_SUCCESS: '이상형 강아지 조회 성공',
+	GET_LIKE_SUCCESS: '좋아하는 강아지 조회 성공',
 
     DB_ERROR: 'DB 오류'
 };
