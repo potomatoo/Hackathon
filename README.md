@@ -27,7 +27,7 @@
 > 시작
 
 <div align="center" style="display:flex;">
-	<img src="./imgs/1.png" width="30%"/>
+	<img src="./imgs/1.JPG" width="30%"/>
 </div>
 
 - 초기 시작 뷰입니다. 클릭하면 강아지 월드컵이 시작됩니다.
@@ -35,7 +35,7 @@
 > 월드컵
 
 <div align="center" style="display:flex;">
-	<img src="./imgs/2.png" width="30%"/>
+	<img src="./imgs/2.JPG" width="30%"/>
 </div>
 
 - 월드컵 뷰입니다. 저희의 믹스견 분류에 따라 더 마음에 드는 쪽을 선택합니다.
