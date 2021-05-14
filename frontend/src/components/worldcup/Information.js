@@ -44,7 +44,7 @@ export default function Information({ topRound, bottomRound }) {
 	return (
 		<InformationBlock>
 			<div>
-				<p id="boldTextTeal">{topRound === 2 ? '결승' : topRound}</p>
+				<p id="boldTextTeal">{topRound}</p>
 				<p id="boldTextBlack">강</p>
 			</div>
 			<div>
