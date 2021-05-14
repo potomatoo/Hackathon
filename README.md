@@ -72,12 +72,12 @@
 
 - 카드 뷰입니다. 유기견의 거리 등 를 표시함으로써 현실감있게 다가가고자 하였습니다.
 
-
+<br/>
 
 ## 📚 API Docs
 * [Api Description Link](https://github.com/busking22/saveDogs/wiki)
 
-
+<br/>
 
 ## :computer: 역할 분담
 
