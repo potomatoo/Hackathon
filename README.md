@@ -60,13 +60,24 @@
 	<img src="./imgs/4.PNG" width="75%"/>
 </div>
 
-- 친구 뷰입니다. 우승한 강아지와 같은 특징을 지닌 유기견들을 보여주고, 거리를 표시함으로써 현실감있게 다가가고자 하였습니다.
+- 친구 뷰입니다. 우승한 강아지와 같은 특징을 지닌 유기견들을 보여줍니다. 
 
+<br/>
+
+### 카드
+
+<div align="center" style="display:flex;">
+	<img src="./imgs/5.PNG" width="75%"/>
+</div>
+
+- 카드 뷰입니다. 유기견의 거리 등 를 표시함으로써 현실감있게 다가가고자 하였습니다.
+
+<br/>
 
 ## 📚 API Docs
 * [Api Description Link](https://github.com/busking22/saveDogs/wiki)
 
-
+<br/>
 
 ## :computer: 역할 분담
 
