@@ -52,6 +52,16 @@
 
 - 우승자 뷰입니다. 월드컵에서 우승한 종류의 강아지 카드를 보여주고, 같은 종류의 유기견들을 보도록 유도합니다.
 
+<br/>
+
+### 친구
+
+<div align="center" style="display:flex;">
+	<img src="./imgs/4.PNG" width="75%"/>
+</div>
+
+- 친구 뷰입니다. 우승한 강아지와 같은 특징을 지닌 유기견들을 보여주고, 거리를 표시함으로써 현실감있게 다가가고자 하였습니다.
+
 
 ## 📚 API Docs
 * [Api Description Link](https://github.com/busking22/saveDogs/wiki)
