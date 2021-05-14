@@ -22,6 +22,45 @@
 - 가장 좋아하는 믹스견이 결정되면, 그와 비슷한 유기견 아이들을 함께 보여줍니다.
 - 이 서비스를 기회로 보다 많은 사람들이 믹스견, 그리고 유기견에 대해 한 번 더 생각해보게 되었으면 좋겠습니다😊
 
+## 💁‍♂️ Service workflow
+
+### 시작
+
+<div align="center" style="display:flex;">
+	<img src="./imgs/1.JPG" width="75%"/>
+</div>
+
+- 초기 시작 뷰입니다. 클릭하면 강아지 월드컵이 시작됩니다.
+
+<br/>
+
+### 월드컵
+
+<div align="center" style="display:flex;">
+	<img src="./imgs/2.JPG" width="75%"/>
+</div>
+
+- 월드컵 뷰입니다. 저희의 믹스견 분류에 따라 더 마음에 드는 쪽을 선택합니다.
+
+<br/>
+
+### 우승
+
+<div align="center" style="display:flex;">
+	<img src="./imgs/3.PNG" width="75%"/>
+</div>
+
+- 우승자 뷰입니다. 월드컵에서 우승한 종류의 강아지 카드를 보여주고, 같은 종류의 유기견들을 보도록 유도합니다.
+
+<br/>
+
+### 친구
+
+<div align="center" style="display:flex;">
+	<img src="./imgs/4.PNG" width="75%"/>
+</div>
+
+- 친구 뷰입니다. 우승한 강아지와 같은 특징을 지닌 유기견들을 보여주고, 거리를 표시함으로써 현실감있게 다가가고자 하였습니다.
 
 
 ## 📚 API Docs
