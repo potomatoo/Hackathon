@@ -201,16 +201,13 @@ export default function WorldCup() {
 		if (dogs.length <= 2) {
 			if (winners.length === 0) {
 				setDisplays([dog]);
-				console.log('a');
 			} else {
 				let updatedDog = [...winners, dog];
 				setDogs(updatedDog);
 				setDisplays([updatedDog[0], updatedDog[1]]);
 				setWinners([]);
 				setRound([round[0] / 2, 1]);
-				console.log('b');
 			}
-			console.log('c');
 		} else if (dogs.length > 2) {
 			setWinners([...winners, dog]);
 			setDisplays([dogs[2], dogs[3]]);
@@ -218,8 +215,6 @@ export default function WorldCup() {
 			console.log('d');
 			setRound([round[0], round[1] + 1]);
 		}
-
-		console.log('e');
 	};
 	return (
 		<Default>
